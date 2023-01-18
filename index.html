@@ -15,11 +15,17 @@
 
 <body>
   <main>
-    <div class="container">
-      <h1>Advice generator</h1>
-      <div id="id"></div>
-      <div id="advice"></div>
-      <button id="generate">Get advice</button>
+    <div class="container w-50 pt-lg-5">
+      <div class="card-body mt-lg-5">
+        <div id="id" class="id text-uppercase mb-4"></div>
+        <div id="advice"></div>
+        <div class="d-flex flex-column align-items-center mt-5 border-primary">
+          <img src="./images/pattern-divider-desktop.svg" class="w-100 img-fluid" alt="divider">
+          <div class="dice">
+            <img src="./images/icon-dice.svg" id="generate" class="mt-4 dice-img" alt=""></img>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
   <script src="./js/base.js"></script>
