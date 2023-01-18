@@ -43,17 +43,22 @@ body {
 
 .dice-img {
   position: relative;
-  top: 1.5rem;
-  border: 15px solid var(--Neon-Green);
-  border-radius: 1rem;
+  bottom: 0.6rem;
+  left: 0.71rem;
   background-color: var(--Neon-Green);
 }
 
 .dice-img:hover{
-  box-shadow: 0px 0px 40px var(--Neon-Green);
+  box-shadow: 0 0 20px 12px var(--Neon-Green);
   cursor: pointer;
 }
 
-.dice{
-  /* background-color: var(--Neon-Green); */
+.circle{
+  position: relative;
+  top: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 100px;
+  background-color: var(--Neon-Green);  
 }
+
