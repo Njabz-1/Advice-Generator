@@ -27,7 +27,7 @@ body {
 .card-body {
   background-color: var(--Dark-Grayish-Blue);
   color: var(--Light-Cyan);
-  padding: 2rem 2rem 0rem;
+  /* padding: 2rem 2rem 0rem; */
   border-radius: 0.5rem;
   /* margin-top: 8rem; */
 }
@@ -55,10 +55,16 @@ body {
 
 .circle{
   position: relative;
-  top: 1.5rem;
+  top: 2.5rem;
   width: 3rem;
   height: 3rem;
   border-radius: 100px;
   background-color: var(--Neon-Green);  
 }
 
+@media (min-width: 767.98px) {
+  .container {
+    max-width: 50% !important;
+  }
+
+}
