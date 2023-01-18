@@ -27,9 +27,8 @@ body {
 .card-body {
   background-color: var(--Dark-Grayish-Blue);
   color: var(--Light-Cyan);
-  /* padding: 2rem 2rem 0rem; */
   border-radius: 0.5rem;
-  /* margin-top: 8rem; */
+  margin-top: 8rem;
 }
 
 .id {
